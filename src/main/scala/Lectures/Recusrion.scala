@@ -27,14 +27,14 @@ object Recusrion {
     @tailrec
     def helper(x : BigInt, accumulator : BigInt): BigInt ={
       if(x<=1)return accumulator;
-      else return helper(x-1, x*accumulator); //TAIL RECURSION = use recursice call as the LAST expresison
+      else return helper(x-1, x*accumulator); //TAIL RECURSION = use recursive call as the LAST expression
     }
     helper(x,1);
   }
 
   //WHEN WE NEED LOOPS, WE USE TAIL_RECURSION.
 
-//  1. Concateneates a string n times
+//  1. Concatenates a string n times
   def concatString(a : String, n : Int) : String ={
     @tailrec
     def helper(a : String, acc : String, n:Int): String = {
