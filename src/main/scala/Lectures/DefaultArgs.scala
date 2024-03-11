@@ -6,6 +6,7 @@ object DefaultArgs {
   def main(args : Array[String]):Unit={
     val fac10 = fact(7)
     println(fac10)
+
     savePictures(height = 2,width = 690, format = "png")
   }
   @tailrec
