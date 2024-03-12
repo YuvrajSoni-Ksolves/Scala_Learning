@@ -20,8 +20,7 @@ object Expressions extends App{
        val aCondition = false;
        val aConditionValue = if(aCondition){
          5
-       }else 3;
-       println(aConditionValue)
+       }else 3; println(aConditionValue)
       println(if(aCondition) 6 else 7)
 
        //IF is an expression in SCALA
